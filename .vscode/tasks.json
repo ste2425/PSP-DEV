@@ -1,0 +1,43 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-sample",
+            "type": "shell",
+            "command": "./psp-make.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/projects/sample"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "clean-sample",
+            "type": "shell",
+            "command": "./psp-clean.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/projects/sample"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "rebuild-sample",
+            "type": "shell",
+            "command": "./psp-rebuild.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/projects/sample"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "run-sample",
+            "type": "shell",
+            "command": "./ppsspp/PPSSPPWindows64.exe ./projects/sample/game/EBOOT.pbp",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
