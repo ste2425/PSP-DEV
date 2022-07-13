@@ -18,6 +18,7 @@ I could not get the docker image in the article to work for love nor money no ma
 
 * Clone this repo.
   * This uses sub modules execute `git clone --recurse-submodules` to include them
+* Install [Docker](https://www.docker.com/products/docker-desktop/)
 * Download and extract the [PPSSPP](https://www.ppsspp.org/) emulator to the root of the `ppsspp` folder.
 * Within each project folder execute the various batch scripts as needed.
   * *psp-make.bat* - Will build the project
