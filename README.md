@@ -17,7 +17,7 @@ I could not get the docker image in the article to work for love nor money no ma
 # How to use
 
 * Clone this repo.
-  * This uses sub modules execute `git clone --recurse-submodules` to include them
+  * This uses sub modules execute `git clone --recurse-submodules https://github.com/ste2425/PSP-DEV.git` to include them in the clone
 * Install [Docker](https://www.docker.com/products/docker-desktop/)
 * Download and extract the [PPSSPP](https://www.ppsspp.org/) emulator to the root of the `ppsspp` folder.
 * Within each project folder execute the various batch scripts as needed.
@@ -27,6 +27,7 @@ I could not get the docker image in the article to work for love nor money no ma
 * There are VSCode tasks for the above build scripts
   * The task `run-sample` will launch the sample game in the `PPSSPP` emulator. Be sure to do a build first.
 
+# TLDR;
 To see something happen for the first time execute the following VSCode tasks in order.
 
 `build-sample` then `run-sample`.
