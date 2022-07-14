@@ -10,7 +10,7 @@ I could not get the docker image in the article to work for love nor money no ma
 
 * `./references` - Collection of PSP development resources.
 * `./pspsdk` - Contains the PSPSDK repository, used for reference.
-* `./pspdev-socker` - Contains the docker image repository, used for reference.
+* `./pspdev-docker` - Contains the docker image repository, used for reference.
 * `./ppsspp` - Contains the PPSSPP emulator. VSCode tasks reference this. Not checked in as its massive.
 * `./projects` - Contains individual projects.
 

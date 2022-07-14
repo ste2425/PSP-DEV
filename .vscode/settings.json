@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "pspsdk.h": "c",
+        "pspdebug.h": "c"
+    }
+}
